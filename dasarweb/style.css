@@ -18,3 +18,7 @@ h2 {
     padding: 50px;
     display: inline-block;
 }
+body{
+    background: lightcyan;
+    color: white;
+}
