@@ -9,16 +9,15 @@ h2 {
     color: #fff;
     margin: 10px;
     background: orange;
-    display: inline-block; 
 }
 #kotak {
     width: 400px;
     color: #fff;
     background: blue;
     padding: 50px;
-    display: inline-block;
 }
 body{
-    background: lightcyan;
+    background: url('tree1.jpg'), url('field1.jpg');
+    background-repeat: no-repeat, repeat;
     color: white;
 }
