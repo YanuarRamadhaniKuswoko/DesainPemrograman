@@ -1,0 +1,87 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e6f3ff; 
+    line-height: 1.65;
+    padding-bottom: 1000px;
+}
+
+.container-satu {
+    width: 1000px;              
+    margin: 50px auto;           
+    background-color: #fff;      
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;               
+    border: 2px solid #ccc;
+    gap: 20px;                  
+}
+
+.kolon-utama {
+    flex: 3;  
+}
+.kolon-utama h2 {
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+.kolon-utama p {
+    font-size: 14px;
+    color: #333;
+    text-align: justify;
+    margin: 10px 0;
+}
+.kolon-utama img {
+    width: 100%;
+    max-width: 400px;
+    height: 200px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+}
+
+.sidebar-satu {
+    flex: 1;  
+    background-color: #f0f8ff;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+.sidebar-satu h3 {
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+.sidebar-satu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.sidebar-satu li {
+    margin: 5px 0;
+}
+.sidebar-satu a {
+    color: #7B68EE;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.sidebar-dua {
+    flex: 1;  
+    background-color: #fff8f0;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+.sidebar-dua h3 {
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+.sidebar-dua p {
+    font-size: 14px;
+    color: #333;
+    text-align: justify;
+    margin: 10px 0;
+}
